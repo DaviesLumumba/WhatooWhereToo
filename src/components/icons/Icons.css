@@ -1,0 +1,9 @@
+.icon:hover {
+    background: #C7A5B4;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+.icon:hover path{
+    fill: white;
+    opacity:1;
+}

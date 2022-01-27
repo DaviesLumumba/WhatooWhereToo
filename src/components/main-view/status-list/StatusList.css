@@ -1,0 +1,41 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+    box-sizing: border-box;
+}
+.gilroy-extra-extra-bold-plantation-20px {
+    color: var(--plantation);
+    font-family: "Gilroy-ExtraBold", Helvetica, Arial, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+}
+.status-list-header {
+    align-self: flex-start;
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+}
+.trends {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black-haze);
+    height: 40vw;
+    margin: -32px 16px 16px;
+    border-radius: 1.8vw;
+    min-height: 134px;
+    min-width: 265px;
+    position: relative;
+    width: 100%;
+}
+.status-list-scrollable{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-y: scroll;
+    height: 100%;
+}
+:root {
+    --black-haze: rgba(246, 248, 250, 1);
+    --plantation: rgba(39, 62, 71, 1);
+}

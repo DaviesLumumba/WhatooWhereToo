@@ -1,0 +1,328 @@
+.results-box>* {
+    flex: 0 0 10%;
+    margin:12px;
+}
+.results-box {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    display:flex;
+    padding: 16px;
+}
+.image-card-view {
+    align-items: flex-start;
+    background-color: var(--black-haze);
+    display: flex;
+    flex-direction: column;
+    padding: 11px;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    border-radius: 1.15vw;
+}
+
+.tattoo-image {
+    cursor: pointer;
+    display: block;
+    width: 15.5vw;
+    object-fit: cover;
+    opacity: 0;
+    transition: all 0.2s ease;
+    border-radius: 12px;
+    max-height: 190px;
+
+}
+
+.tattoo-image.animate-enter {
+    animation: animate-enter-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+    display: block;
+    opacity: 0;
+}
+
+.tattoo-image:hover {
+    transform: scale(1.05);
+}
+
+.tag-box {
+    align-items: flex-end;
+    display: flex;
+    margin-left: 0;
+    margin-top: 8px;
+    width: available;
+}
+
+.tag-selected {
+    align-items: flex-start;
+    background-color: rgba(89, 38, 60, 1);
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: .35vw .7vw;
+    transition: all 0.2s ease;
+}
+
+.tag-selected:hover,
+.tag:hover,
+.tag-1:hover {
+    transform: translate(0, -5px);
+}
+
+.tag-text-selected {
+    color: var(--white);
+    font-family: "sf_pro_display_regular", sans-serif;
+    font-size:  .75vw;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14px;
+    min-font-size: 11px;
+    white-space: nowrap;
+}
+
+.tag {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    margin-left: 6px;
+    height: fit-content;
+    width: fit-content;
+    padding: .28vw .5vw;
+    transition: all 0.2s ease;
+
+}
+
+
+
+.tag-text {
+    height: 14px;
+    letter-spacing: 0;
+    line-height: 14px;
+    font-family: "sf_pro_display_regular", sans-serif;
+    white-space: nowrap;
+}
+
+.tag-1 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    height: 22px;
+    margin-left: 6px;
+    min-width: 68px;
+    padding: 4px 13px;
+    transition: all 0.2s ease;
+}
+
+.tag-text-1 {
+    height: 15px;
+    letter-spacing: 0;
+    line-height: 14px;
+    white-space: nowrap;
+}
+
+@keyframes animate-enter-frames {
+    from{opacity: 0;
+    }
+    to{opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: "SF Pro Display-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/SFProDisplay-Regular") format("opentype");
+}
+
+.screen a {
+    display: contents;
+    text-decoration: none;
+}
+
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+}
+
+.container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Classes */
+
+.gilroy-bold--normal-slate-gray-16px {
+    color: var(--slate-gray);
+    font-family: var(--font-family-gilroy-bold-☞);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+.sfprodisplay-light-white-12px {
+    color: var(--white);
+    font-family: "sf_pro_display-light", sans-serif;
+    font-size: var(--font-size-xxs);
+    font-weight: 300;
+    font-style: normal;
+}
+.sfprodisplay-regular-normal-wine-berry-11-2px {
+    color: var(--wine-berry);
+    font-family: "sf_pro_display_regular", sans-serif;
+    font-size: var(--font-size-xxxs);
+    font-weight: 400;
+    font-style: normal;
+}
+.border-1-1px-wine-berry {
+    border-width: 1.1px;
+    border-style: solid;
+    border-color: var(--wine-berry);
+}
+.sfprodisplay-medium-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-sf_pro_display-medium);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-style: normal;
+}
+.gilroy-extra-extra-bold-plantation-24px {
+    color: var(--plantation);
+    font-family: var(--font-family-gilroy-extrabold);
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    font-style: normal;
+}
+.gilroy-extra-extra-bold-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-gilroy-extrabold);
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    font-style: normal;
+}
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --plantation: rgba(39, 62, 71, 1);
+    --pickled-bluewood: rgba(51, 77, 88, 1);
+    --wine-berry: rgba(89, 38, 60, 1);
+    --slate-gray: rgba(113, 131, 139, 1);
+    --gray: rgba(130, 130, 130, 1);
+    --regent-gray-2: rgba(133, 148, 155, 0.102);
+    --regent-gray: rgba(133, 148, 155, 1);
+    --black-haze: rgba(246, 248, 250, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxxs: .75vw;
+    --font-size-xxs: 12px;
+    --font-size-xs: 14px;
+    --font-size-s: 16px;
+    --font-size-m: 18px;
+    --font-size-l: 20px;
+    --font-size-xl: 24px;
+
+    --font-family-gilroy-bold-☞: "Gilroy-Bold";
+    --font-family-gilroy-extrabold: "gilroy-extra-bold";
+    --font-family-inter-regular: "Inter-Regular";
+    --font-family-sf_pro_display-light: "sf_pro_display-light";
+    --font-family-sf_pro_display-medium: "sf_pro_display_medium";
+    --font-family-sf_pro_display-regular: "sf_pro_display_regular";
+}
+
+.frame-23 {
+    align-items: flex-start;
+    display: flex;
+    width: 100%;
+    padding: 1.7vw;
+}
+
+.group-20 {
+    height: 107px;
+    margin-top: -0.32px;
+    width: 206px;
+}
+
+.im-a-tatoo-artist {
+    color: #612940;
+    font-family: "sf_pro_display-light", sans-serif;
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    margin-top: 0;
+    min-height: 20px;
+    text-decoration: underline;
+    margin-left: auto;
+}
+
+@font-face {
+    font-family: "SF Pro Display-Light";
+    font-style: normal;
+    font-weight: 300;
+    src: url("https://fonts.animaapp.com/SFProDisplay-Light") format("opentype");
+}
+
+.user-details {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 2.5vw;
+}
+
+.browse-title {
+    color: var(--wine-berry);
+    font-family: Gilroy-ExtraBold, Helvetica, Arial, serif;
+    font-size: var(--font-size-l);
+    font-weight: 800;
+    letter-spacing: 0.19px;
+    line-height: 19.0px;
+    min-height: 20px;
+    white-space: nowrap;
+}
+
+.posted-by {
+    color: var(--wine-berry);
+    font-family: "SF Pro Display-Regular", sans-serif;
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    height: 15px;
+    letter-spacing: 0.19px;
+    line-height: 15.2px;
+    margin-left: 0;
+    white-space: nowrap;
+}
+
+@font-face {
+    font-family: "SF Pro Display-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/SFProDisplay-Regular") format("opentype");
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    font-style: normal;
+    font-weight: 800;
+    src: url("https://fonts.animaapp.com/Gilroy-ExtraBold") format("opentype");
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+

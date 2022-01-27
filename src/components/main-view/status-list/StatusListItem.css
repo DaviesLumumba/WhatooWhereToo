@@ -1,0 +1,81 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+.sf-pro-display-light-gray-14px {
+    color: var(--gray);
+    font-family: "SF Pro Display-Light", Helvetica, Arial, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+}
+.sf-pro-display-medium-gray-18px {
+    color: var(--gray);
+    font-family: "SF Pro Display-Medium", Helvetica, Arial, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+.status-item-user-details {
+    background-color: transparent;
+    height: 36px;
+    left: 90px;
+    position: absolute;
+    top: 9px;
+    width: 108px;
+}
+.status-item-divider {
+    background-color: lightgray;
+    opacity: 0.5;
+    height: 1.43%;
+    position: absolute;
+    top: 96%;
+    width: 100%;
+}
+.status-item-name {
+    background-color: transparent;
+    height: 55.56%;
+    left: 0px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    white-space: nowrap;
+    width: 99.07%;
+}
+.status-item-picture {
+    background-color: transparent;
+    height: 54px;
+    left: 21px;
+    position: absolute;
+    top: 0;
+    width: 54px;
+    border-radius: 50%;
+    border: 2px #95be45 solid;
+}
+.status-item-time {
+    background-color: transparent;
+    height: 16px;
+    left: 0px;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+    opacity: 0.6;
+    position: absolute;
+    text-align: left;
+    top: calc(50% + 2px);
+    white-space: nowrap;
+    width: 50.93%;
+}
+.status-list-item {
+    background-color: transparent;
+    height: 70px;
+    position: relative;
+    margin-top: 12px;
+    width: 100%;
+}
+:root {
+    --gray: rgba(130, 130, 130, 1);
+}
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+# Ignore everything in this directory
+
+# Except this file
+!.gitignore
+!auth/
+!layout/
+!main-view/
+!contacts-list/
+!messaging-view/
+!conversations-list
+!profile-page
+!chat-container/
+!activity-feed
+!icons/

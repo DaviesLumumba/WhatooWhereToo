@@ -1,0 +1,210 @@
+.font-class-1 {
+  color: white;
+  font-family: "SFProDisplay-Light", Helvetica, Arial, serif;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 16px;
+}
+.font-class-2 {
+  color: white;
+  font-family: "SFProDisplay-Regular", Helvetica, Arial, serif;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
+}
+.font-class-3 {
+  color: white;
+  font-family: "SFProDisplay-Medium", Helvetica, Arial, serif;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
+}
+
+.status {
+  width: 60%;
+  height: 100%;
+  border-radius: 25px;
+  border: 2px solid #334d58;
+  padding: 20px;
+}
+
+.flex-row-layout {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2%;
+}
+
+.h1 {
+  color: #273e47;
+  font-family: "SFProDisplay-Medium", Helvetica, Arial, serif;
+  font-size: 28px;
+  font: bold;
+  letter-spacing: 0px;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.h1.light {
+  color: white;
+}
+
+.h2 {
+  color: #273e47;
+  font-family: "SFProDisplay-Medium", Helvetica, Arial, serif;
+  font-size: 20px;
+  font: bold;
+  letter-spacing: 0px;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.h2 .light {
+  color: #71838b;
+}
+
+.status-add {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #f6f8fa;
+  border-radius: 25px;
+  border: 2px solid #f6f8fa;
+  padding: 5%;
+}
+
+.add-status-container {
+  width: 100%;
+}
+.add-status-toolbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 5%;
+}
+
+.add-status-form {
+  height: 80%;
+  padding-left: 5%;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon {
+  background-color: transparent;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  vertical-align: middle;
+  height: 25px;
+  left: 15px;
+  top: 14px;
+  width: 25px;
+}
+
+.avatar {
+  background-color: transparent;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  vertical-align: middle;
+  height: 40px;
+  left: 15px;
+  top: 14px;
+  width: 45px;
+}
+
+.trends {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f6f8fa;
+  border-radius: 25px;
+  border: 2px solid #f6f8fa;
+  padding: 5%;
+  margin-right: 2%;
+}
+
+.updates {
+  display: flex;
+  flex-direction: column;
+}
+
+.follow-status {
+  display: flex;
+  flex-direction: row;
+}
+
+.follow-other-status {
+  width: 80%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  margin: 4px;
+}
+
+.userName-status {
+  color: #273e47;
+  font-family: "SFProDisplay-Medium", Helvetica, Arial, serif;
+  font-size: 16px;
+  font: bold;
+  letter-spacing: 0px;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.userStatus-status {
+  color: #828282;
+  font-family: "SFProDisplay-Medium", Helvetica, Arial, serif;
+  font-size: 10px;
+  font: bold;
+  letter-spacing: 0px;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.status-display {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f6f8fa;
+  border-radius: 25px;
+  border: 2px solid #f6f8fa;
+  padding: 5%;
+}
+
+.post {
+  background-color: transparent;
+  background-size: 100% 100%;
+  border-radius: 2px;
+  vertical-align: middle;
+  height: 300px;
+  left: 15px;
+  top: 14px;
+  width: 300px;
+  margin-top: 20%;
+}
+
+.send-message-status-view {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text-input {
+  background-color: #e5e8e9;
+  border-radius: 5px;
+  height: 50px;
+}

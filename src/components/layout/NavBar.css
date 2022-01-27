@@ -1,0 +1,8 @@
+.ant-popover-content .ant-popover-inner {
+    border-radius: 10px;
+    margin-left: 16px;
+    font-family: 'SFProDisplay-Regular', serif;
+}
+.ant-popover-placement-topLeft .ant-popover-content .ant-popover-arrow {
+    margin-left: 16px;
+}

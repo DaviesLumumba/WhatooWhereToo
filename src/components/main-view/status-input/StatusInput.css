@@ -1,0 +1,95 @@
+.status-input {
+    display: flex;
+    margin: 0 16px 0px;
+}
+.status-input .ant-upload-picture-card-wrapper {
+    display: flex;
+    width: fit-content;
+    padding: 16px;
+}
+.inter-medium-pickled-bluewood-19px {
+    color: #59263C;
+    font-family: Gilroy-ExtraBold, Helvetica, Arial, serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+}
+.color-preview {
+    background-color: var(--rajah);
+    border-radius: 6px;
+    height: 22px;
+    pointer-events: auto;
+    position: relative;
+    transition: all 0.2s ease;
+    width: 22px;
+    margin-right: 8px;
+    border: transparent;
+}
+.color-preview:hover {
+    transform: scale(1.1);
+}
+.hex {
+    background-color: transparent;
+    height: auto;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    width: auto;
+}
+.selected-color {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    height: 20px;
+    margin-left: 24px;
+    position: relative;
+    margin-top: 8px;
+}
+.text-color-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.status-input .react-emoji .react-input-emoji--container[style] {
+    background-color: var(--black-haze);
+    padding-left: 30px;
+    font-size: 20px!important;
+    font-family:  Gilroy-Bold, Helvetica, Arial, serif!important;
+    color: #753751;
+
+}
+.react-input-emoji--wrapper .react-input-emoji--input {
+    padding: 32px 11px!important;
+}
+input[type="color"] {
+    opacity: 0;
+    border: none;
+}
+.color-send-box {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'SF Pro Display', serif;
+    width: 100%;
+}
+.status-input .send-button {
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.status-input .ant-btn-primary {
+    background: #59263C;
+    border-color: #59263C;
+    border-radius: 12px;
+    font-family: "SF Pro Display-Regular", Helvetica, Arial, serif;
+}
+:root {
+    --black-haze: #59263C;
+    --pickled-bluewood: #59263C;
+    --rajah: rgb(164, 109, 109);
+}
+

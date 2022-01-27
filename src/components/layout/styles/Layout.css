@@ -1,0 +1,17 @@
+.search-bar-container{
+    text-align: center;
+    width: inherit;
+    height: inherit;
+    padding-top: 30px;
+}
+
+.search-input-bar{
+    color: white;
+    font-family: "SFProDisplay-Regular", Helvetica, Arial, serif;
+    font-size: 15px;
+    background-color: #334D58;
+    border: 1px solid #334D58;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}

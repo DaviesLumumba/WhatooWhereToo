@@ -1,0 +1,134 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+    box-sizing: border-box;
+}
+.status-display-view {
+    display: flex;
+    justify-items: center;
+    background-color: var(--black-haze);
+    height: 40vw;
+    position: relative;
+    width: 36vw;
+    border-radius: 1.8vw;
+    min-width: 265px;
+    min-height: 308px;
+    margin: -32px 16px 16px;
+}
+.status-display-view-item {
+    display: flex;
+    justify-items: center;
+    background-color: transparent;
+    height: 40vw;
+    position: relative;
+    width: 36vw;
+    border-radius: 1.8vw;
+    min-width: 265px;
+    min-height: 308px;
+}
+.status-display-view .image-view {
+    background-color: transparent;
+    height: calc(100% - 40px);
+    left: 17px;
+    pointer-events: auto;
+    position: absolute;
+    top: 21px;
+    transition: all 0.2s ease;
+    width: calc(100% - 34px);
+}
+.status-display-view .image-view:hover {
+    filter: blur(2px);
+}
+.status-display-view .pic {
+    background-color: transparent;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 3px #95be45 solid;
+}
+.status-display-view .picture {
+    background-color: transparent;
+    border-radius: 1.25vw;
+    height: 100%;
+    position: relative;
+    width: calc(100% + 1px);
+}
+.status-display-view .status-display-text{
+    background-color: transparent;
+    align-items: center;
+    padding: 45% 32px 32px;
+    height: 100%;
+    border-radius: 1.25vw;
+    position: relative;
+    width: calc(100% + 1px);
+    font-family: SFProDisplay-Regular, serif;
+    font-size: 16px;
+    text-align: center;
+}
+.status-display-view .posted-by {
+    background-color: transparent;
+    letter-spacing: 0.2px;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    color: var(--pickled-bluewood);
+    font-family: "SF Pro Display-Regular", Helvetica, Arial, serif;
+    font-size: clamp(9px, 0.9vw, 24px);
+    font-style: normal;
+    font-weight: 400;
+}
+.status-display-view .status-display-details {
+    display: flex;
+    background-color: var(--white);
+    border-radius: 0.9vw;
+    bottom: 32px;
+    height: 4.7vw;
+    left: 32px;
+    position: absolute;
+    width: 15vw;
+    padding: 0.5vw 0.8vw;
+    min-width: 130px;
+    min-height: 40px;
+}
+.status-display-view .status-display-user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    padding: 0.8vw;
+}
+.status-display-view .status-display-username {
+    background-color: transparent;
+    letter-spacing: 0.2px;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    color: var(--plantation);
+    font-family: "Gilroy-ExtraBold", Helvetica, Arial, serif;
+    font-size: clamp(11px, 1vw, 24px);
+    font-style: normal;
+    font-weight: 800;
+    margin-top: -4px;
+}
+.status-display-view li.slick-active button {
+    background: #273e47 !important;
+    opacity: 1;
+}
+.ant-carousel .slick-dots li button {
+    background: #273e47 !important;
+}
+
+
+:root {
+    --black-haze: rgba(246, 248, 250, 1);
+    --pickled-bluewood: rgba(51, 77, 88, 0.75);
+    --plantation: rgba(39, 62, 71, 1);
+    --white: rgba(255, 255, 255, 0.7);
+}
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

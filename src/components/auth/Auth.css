@@ -1,0 +1,291 @@
+.reg-header{
+    font-family: "Gilroy-Bold", Helvetica, Arial, serif;
+    text-align: center;
+    width: auto;
+    font-size: clamp(4px, 1.8vw, 28px);
+}
+
+.reg-form-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 68%;
+    background-color: white;
+    float: left;
+    height: 100%;
+    border-radius: 28px;
+    border-color: transparent;
+}
+
+.reg-form-extra{
+    width: 35%;
+    float: right;
+    height: 100%;
+}
+
+.reg-sign-in-alert{
+    font-size: clamp(4px, 1.3vw, 16px);
+    color: grey;
+    float: right;
+    align-self: center;
+    margin: 3%;
+    font-family: SFProDisplay-Medium, sans-serif;
+}
+
+.reg-sign-in-button{
+    padding: 0% 8%;
+    background-color: white;
+    height: 60%;
+    float: right;
+    align-self: center;
+    width: auto;
+}
+
+.reg-submit-button, .reg-sign-in-button{
+    font-family: SFProDisplay-Medium, serif;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    font-size: clamp(4px, 1.3vw, 16px);
+}
+
+.reg-submit-button{
+    background-color: #273E47;
+    padding: clamp(4px, 3.5%, 16px);
+    color: white;
+    width: 40%;
+    max-width: 200px;
+    align-self: center;
+}
+
+.registration-sign-in-box{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    margin-right: 5.5%;
+    margin-top: 2.5%;
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+
+.reg-sign-in-button:hover {
+    background-color: var(--pickled-bluewood);
+    color: white;
+  }
+
+.reg-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    align-self: center;
+    max-width: 650px;
+}
+
+.reg-form-one{
+    width: 48%;
+    float: left;
+    height: auto;
+}
+
+.reg-form-two{
+    width: 48%;
+    float: right;
+    height: auto;
+}
+
+.reg-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 20%;
+    align-self: center;
+}
+
+form{
+    margin: 2% 5% 2%;
+}
+
+.email-label, .password-label, .username-label, .fullname-label{
+    font-size: clamp(4px, 1.3vw, 16px);
+    font-family: SFProDisplay-Bold, sans-serif;
+    float: left;
+    padding-left: 6%;
+    padding-bottom: 0.5vw;
+}
+
+.reg-username-input, .reg-fullname-input, .reg-email-input, .reg-password-input{
+    background-color: #F5F5F5;
+    border: 1px whitesmoke;
+    border-radius: 8px;
+    padding: 6%;
+    height: clamp(4px, 4vw, 60px);
+    font-family: SFProDisplay-Medium, sans-serif;
+    font-size: clamp(4px, 1.3vw, 16px);
+}
+
+.reg-username-group, .reg-fullname-group, .reg-email-group, .reg-password-group{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 16px;
+}
+
+.reg-instructions-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 32%;
+    position: relative;
+}
+
+.flower-container {
+    display: flex;
+    width: 70%;
+    height: available;
+    align-self: flex-end;
+}
+
+.gilroy-bold--normal-white-18px {
+    color: white;
+    font-family: Gilroy-Bold, Helvetica, Arial, serif;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.instructions-box {
+    background-color: var(--pickled-bluewood);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: fit-content;
+    padding: 1.8vw 0.8vw;
+    position: relative;
+    width: 92%;
+    border-radius: 20px;
+    margin: 16px;
+    align-self: center;
+}
+.instructions-box .number-one-15 {
+    background-color: transparent;
+    height: auto;
+    left: 40%;
+    top: 24%;
+    position: relative;
+    text-align: left;
+    width: auto;
+}
+.instructions-box .number-one-box {
+    background-color: var(--nugget);
+    border-radius: 2.5vw;
+    height: 2.5vw;
+    left: 0.5vw;
+    overflow: hidden;
+    position: relative;
+    top: 0.5vw;
+    width: 2.5vw;
+}
+.instructions-box .number-three-box {
+    background-color: var(--nugget);
+    border-radius: 2.5vw;
+    height: 2.5vw;
+    left: 2.06%;
+    overflow: hidden;
+    position: absolute;
+    top: 19.83%;
+    width: 2.5vw;
+}
+.instructions-box .number-two-19 {
+    background-color: transparent;
+    height: auto;
+    left: 37.14%;
+    top: 24%;
+    position: relative;
+    text-align: left;
+    width: 31.43%;
+}
+.instructions-box .number-two-box {
+    background-color: var(--nugget);
+    border-radius: 2.5vw;
+    height: 2.5vw;
+    left: 2.14%;
+    overflow: hidden;
+    position: absolute;
+    top: 25%;
+    width: 2.5vw;
+}
+.instructions-box .step-one-16 {
+    background-color: transparent;
+    height: auto;
+    left: 8%;
+    position: relative;
+    text-align: left;
+    width: 82%;
+    align-self: flex-end;
+}
+.instructions-box .step-one-box {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    left: 1.2vw;
+    position: relative;
+    width: 92%;
+}
+.instructions-box .step-three-114 {
+    background-color: transparent;
+    height: auto;
+    left: 18%;
+    position: relative;
+    text-align: left;
+    width: 82%;
+    align-self: center;
+}
+.instructions-box .step-three-box {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    height: 60px;
+    left: 1.2vw;
+    position: relative;
+    width: 92%
+}
+.instructions-box .step-two-110 {
+    background-color: transparent;
+    height: auto;
+    position: relative;
+    text-align: left;
+    width: 82%;
+    align-self: flex-end;
+}
+.instructions-box .step-two-box {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    left: 1.2vw;
+    position: relative;
+    width: 92%;
+}
+.sf-pro-display-regular-normal-white-18px {
+    color: white;
+    font-family: SFProDisplay-Medium, Helvetica, Arial, serif;
+    font-size: clamp(4px, 1.3vw, 24px);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.ant-message-notice .ant-message-notice-content {
+    font-family: SFProDisplay-Regular, serif;
+    border-radius: 8px;
+}
+.ant-message-notice-content [class^=ant-],
+[class^=ant-] *::before, [class*= ant-] *::before, [class^=ant-] *::after, [class*= ant-] *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+:root {
+    --nugget: rgba(198, 141, 35, 1);
+    --pickled-bluewood: rgba(51, 77, 88, 1);
+}
